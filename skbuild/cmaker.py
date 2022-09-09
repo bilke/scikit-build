@@ -330,7 +330,8 @@ class CMaker:
                 "Please see CMake's output for more information."
             )
 
-        CMaker.check_for_bad_installs()
+        if False:
+            CMaker.check_for_bad_installs()
 
         return generator.env
 
